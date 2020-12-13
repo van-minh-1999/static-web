@@ -5,14 +5,65 @@
 }
 
 
-/* Header/logo tiêu đề */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fafafa;
+}
 
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+/* Header/logo tiêu đề */
 header {
     padding: 5px;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 33%;
+    height: 100%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.find {
     text-align: center;
-    background: #1abc9c;
-    color: white;
-    height: 120px;
+    width: 33%;
+}
+
+.user {
+    text-align: center;
+    width: 33%;
+}
+
+.user img {
+    height: 40px;
+    margin: 0 8px;
+}
+
+.user img:hover {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.user-img {
+    background-color: #d7d8d9;
+    border-radius: 50%;
+}
+
+.input-find {
+    color: #d7d8d9;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #d7d8d9;
 }
 
 
