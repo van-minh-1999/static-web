@@ -18,6 +18,8 @@ body {
 header {
     padding: 5px;
     background-color: white;
+    position: fixed;
+    width: 100%;
 }
 
 .header {
@@ -74,6 +76,7 @@ header {
 .content {
     display: flex;
     margin-top: 25px;
+    padding-top: 50px;
 }
 
 .main-content {
@@ -85,6 +88,11 @@ header {
     width: 30%;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.position-fixed {
+    position: fixed;
 }
 
 .user-infor {
@@ -181,6 +189,70 @@ header {
 
 .friend p {
     font-size: 13px;
+}
+
+
+.posts-list {
+    width: 100%;
+}
+
+.post {
+    width: 100%;
+    border: 1px solid #d7d8d9;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.post .post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #d7d8d9;
+    margin-right: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+.post-header p {
+    font-weight: bold;
+}
+
+.post-img {
+    max-height: 700px;
+    overflow:hidden;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.post-description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-description p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.post-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.post-icon img {
+    height: 30px;
+    margin: 0 5px;
 }
 
 /* Tăng kích thước font chữ cho header */
