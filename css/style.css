@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1024px;
     margin: auto;
 }
 /* Header/logo tiêu đề */
@@ -78,6 +78,7 @@ header {
 
 .main-content {
     width: 70%;
+    padding-right: 30px;
 }
 
 .menu-right {
@@ -151,6 +152,35 @@ header {
 
 .me p {
     color: #b3b5b6;
+}
+
+.friend-list {
+    display: flex;
+    background-color: white;
+    border: 1px solid #d7d8d9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.friend {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.friend img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #e267a0;
+    margin-bottom: 10px;
+}
+
+.friend p {
+    font-size: 13px;
 }
 
 /* Tăng kích thước font chữ cho header */
